@@ -1,7 +1,9 @@
 {
-  "name": "react-complete-guide",
-  "version": "0.1.0",
+  "name": "expense-tracker",
+  "version": "1.0.0",
   "private": true,
+  "description": "A React-based expense tracker application for managing personal expenses",
+  "author": "Auri Gabriel",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

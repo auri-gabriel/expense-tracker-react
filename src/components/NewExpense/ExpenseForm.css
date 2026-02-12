@@ -7,18 +7,30 @@
 }
 
 .new-expense__control label {
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 0.5rem;
   display: block;
+  color: #f0f9ff;
+  font-size: 0.95rem;
 }
 
 .new-expense__control input {
   font: inherit;
-  padding: 0.5rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
   width: 20rem;
   max-width: 100%;
+  background-color: rgba(15, 23, 42, 0.6);
+  color: #f0f9ff;
+  transition: all 0.3s ease;
+}
+
+.new-expense__control input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background-color: rgba(15, 23, 42, 0.8);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .new-expense__actions {
